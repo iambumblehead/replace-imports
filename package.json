@@ -12,7 +12,7 @@
   "devDependencies": {
     "jasmine": "2.5.3",
     "jasmine-spec-reporter": "3.2.0"
-  }
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/iambumblehead/replace-imports.git"
