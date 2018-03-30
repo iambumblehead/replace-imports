@@ -1,0 +1,31 @@
+{
+  "name": "replace-imports",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Chris <chris@bumblehead.com>",
+  "description": "Replace import statements",  
+  "readmeFilename": "README.md",
+  "main": "./replace-imports",
+  "dependencies": {
+    "acorn": "5.5.3"
+  },
+  "devDependencies": {
+    "jasmine": "2.5.3",
+    "jasmine-spec-reporter": "3.2.0"
+  }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iambumblehead/replace-imports.git"
+  },
+  "keywords": [
+    "es6 import",
+    "import",
+    "replace import",
+    "import replace",
+    "replace imports",
+    "imports replace"
+  ],
+  "scripts": {
+    "test": "jasmine --verbose"
+  }
+}
