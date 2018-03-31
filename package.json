@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "license": "MIT",
   "author": "Chris <chris@bumblehead.com>",
-  "description": "Replace import statements",  
+  "description": "Replace import statements",
   "readmeFilename": "README.md",
   "main": "./replace-imports",
   "dependencies": {
