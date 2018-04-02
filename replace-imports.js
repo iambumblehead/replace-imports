@@ -7,7 +7,7 @@ const acorn = require('acorn');
 module.exports = (content, replacements) => acorn.parse(content, {
   sourceType: 'module',
   allowImportExportEverywhere: true
-}).body.reduce((content, spec) => {
+}).body.reverse().reduce((content, spec) => {
   if (spec.type === 'ImportDeclaration' &&
       spec.source.value in replacements) {
     content =
