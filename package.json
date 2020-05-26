@@ -1,13 +1,13 @@
 {
   "name": "replace-imports",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "author": "Chris <chris@bumblehead.com>",
   "description": "Replace import statements",
   "readmeFilename": "README.md",
   "main": "./replace-imports",
   "dependencies": {
-    "acorn": "5.5.3"
+    "acorn": "^7.2.0"
   },
   "devDependencies": {
     "jasmine": "2.5.3",
